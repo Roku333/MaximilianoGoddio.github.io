@@ -16,21 +16,12 @@
     top: 0;
     left: 0;
     right: 0;
-    padding: 0px 10%;
+    padding: 0 10%;
     display: flex;
     align-items: center ;
     justify-content: space-between;
-    z-index: 1000; 
-}
-
-
-
-.logo{
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: 700;
-    
+    z-index: 1000;  
+    margin: 0;
 }
 
 .nav ul{
@@ -45,13 +36,15 @@
     font-size: 18px;
     color: #fff;
     text-decoration: none;
-    padding: 25px; /*  espaciado entre el menu fijo*/
+    padding: 25px; /*  espaciado entre el menu fijo*/ 
+    padding-top: 50px ; /* para que lo purpura ocupe arriba a abajo entero */
+    padding-bottom: 50px;
     display: block;
     transition: all .2s ease;
 }
-.header .nav ul li a:hover {
+.header .nav ul li a:hover { /*  */
     background-color: #685cfe;
-
+    
 } 
 .header .nav ul li ul{ 
     position: absolute;
@@ -74,7 +67,7 @@
 
 .header .nav ul li:hover > ul {
     display: initial;
- } 
+} 
 
 
 #toggle,
