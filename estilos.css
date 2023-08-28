@@ -9,7 +9,7 @@
     box-sizing:inherit;
 }
 /* CELULAR VERTICAL */
-@media (max-width:575.98px) and (orientation: portrait) {
+@media (max-width:575.98px){
     .header{
         background-color: rgba(1, 1, 1,); /* intertar arrlegar esa garcha*/
         display: flex; 
