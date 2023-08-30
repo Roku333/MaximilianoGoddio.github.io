@@ -9,7 +9,7 @@
     box-sizing:inherit;
 }
 /* CELULAR VERTICAL */
-@media (max-width:575.98px) {
+@media (max-width:1080px) {
     .header{
         background-color: rgba(1, 1, 1,); /* intertar arrlegar esa garcha*/
         display: flex; 
@@ -40,7 +40,7 @@
     }  
 } 
 /*TABLET */
-@media (min-width:575.99px) and (max-width:1279px) {  
+@media (min-width:1081px) and (max-width:1279px) {  
     .header {
         position: fixed;
         background-color: rgba(1, 1, 1, 0.5);
@@ -57,18 +57,19 @@
     .logo img{
         height: 4em;
         width: 5em; 
-        display:block;
+        display:flex; 
+        padding: 0 50px 0 30px;
     }  
     /*CARRUSEL*/
     #toggle
     .slider-box{ 
         width: 100%;
-        height: auto;
+        height: 100vh;
         margin: 0;
     }
 
     .slider-box ul{
-        display: flex;
+        display:flex;
         padding: 0;
         width: 400%;
         animation:slide 15s infinite alternate ease-in-out;
@@ -77,7 +78,7 @@
     .slider-box li{
         width: 100%;
         list-style: none;
-        position: relative;
+        position:relative;
     }
 
     .slider-box img{
@@ -118,7 +119,7 @@
     .logo img{
         height: 4em;
         width: 5em; 
-        display:flex; 
+        display:flex;  
        
     }
     #toggle
@@ -174,7 +175,7 @@
     font-size: 18px;
     color: #fff;
     text-decoration: none;
-    padding: 25px; /*  espaciado entre el menu fijo*/
+    padding: 18px; /*  espaciado entre el menu fijo*/
     display: block;
     transition: all .2s ease;
 }
@@ -203,7 +204,7 @@
         left: 0;  
     }
     .header{
-        padding: 5px 10%;  /* modificar  con esto quedo fijo el header con las opciones*/
+        padding: 5px 5.7%;  /* modificar  con esto quedo fijo el header con las opciones*/
         left: 0;
         position: absolute;
     }
